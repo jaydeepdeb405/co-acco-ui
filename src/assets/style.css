@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+body {
+  background-color: whitesmoke;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px 0px;
+}
+.wrapper {
+  width: 100%;
+}
+
+.small {
+  max-width: 700px;
+  max-height: 150px;
+}
+
+.margin {
+  margin: 3px;
+}
+
+image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-action,
+.card-content {
+  display: flex;
+  justify-content: space-between;
+}
+.card:hover {
+  background-color: beige;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
